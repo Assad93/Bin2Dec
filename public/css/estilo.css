@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-color: rgb(0, 45, 170);
+}
+
+#container {
+    width: 920px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    background: url(../imgs/bg_pagina_167x167.jpg);
+    text-align: center;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 330px;
+    height: 50px;
+    background-color: #FFF;
+    padding: 20px;
+}
+
+#linhadivisoria {
+    margin: 10px 0;
+}
+
+.azul {
+    color: #00F;
+}
+
+.branco {
+    color: #FFF;
+}
